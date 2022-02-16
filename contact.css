@@ -1,0 +1,114 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background:url("contact-background-1.jpg");
+    background-size: cover;
+
+
+}
+
+
+.say{
+
+    position: absolute;
+    left:13%;
+    top:10%;
+    color:steelblue;
+    font-size: 50px;
+}
+
+.say p{
+    margin: 0;
+}
+
+.say p:last-child
+{
+    color: black;
+    margin-left: 20px;
+}
+
+
+.contact
+{
+    position: absolute;
+    top:27%;
+    left:17%;
+    font-size: 20px;
+}
+input,textarea
+{
+    border:none;
+    border-bottom: 2px solid palevioletred;
+    width: 50%;
+}
+
+.in
+{
+    width: 90%;
+}
+
+.left1
+
+{
+    float: left;
+    padding: 20px;
+    width:33vw;
+    height: 60vh;
+    background-color: white;
+}
+
+ .right1
+{
+    width:25vw;
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+    
+    height: 60vh;
+
+} 
+
+.email1
+{
+    margin-top: 60px;
+}
+
+.submit a
+{
+    float: right;
+    margin-right:60px;
+    font-size: 29px;
+    color: black;
+}
+
+
+.e, .p, .a
+{
+    background-color: black;
+    width:70%;
+    height: 10%;
+    color: aliceblue;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -15%;
+    font-size: 17px;
+    padding: 7px;
+}
+
+.e
+{
+    margin-top: 100px;
+   
+}
+
+footer
+{
+    position: absolute;
+    top:120%;
+}
+
+footer .icon{
+    width: 6.5%;
+}

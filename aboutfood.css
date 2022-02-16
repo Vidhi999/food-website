@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Roboto+Mono:wght@300&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Mono:wght@300&display=swap');
+
+
+body
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.navbar
+{
+    width: 100%;
+}
+
+.container
+{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
+
+.box
+{
+    width:19.6vw;
+    height: 70vh;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+
+@keyframes text
+{
+    100%
+    {
+        position: absolute;
+        top:20vh;
+
+    }
+}
+
+
+#box1
+{
+    background-color: blueviolet;
+    position: absolute;
+    top:5%;
+    left:0;
+    animation: text 2s 1 linear forwards;
+}
+
+
+#box2
+{
+    background-color: rgb(202, 97, 162);
+    position: absolute;
+    top:15%;
+    left:20%;
+    animation: text 4s 1 linear forwards;
+
+}
+
+#box3
+{
+    background-color: blueviolet;
+    position: absolute;
+    top:0%;
+    left:40%;
+    animation: text 4s 1 linear forwards;
+}
+
+#box4
+{
+    background-color: rgb(202, 97, 162);
+    position: absolute;
+    top:20%;
+    left:60%;
+    animation: text 4s 1 linear forwards;
+}
+
+#box5
+{
+    background-color: blueviolet;
+    position: absolute;
+    top:10%;
+    left:80%;
+    animation: text 4s 1 linear forwards;
+}
+
+
+
+.cont
+{
+    width:100%;
+
+    height:auto;
+    position: absolute;
+    top:80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+   z-index:-1;
+}
+
+
+
+
+
+img{
+    margin-top:175px;
+    margin-bottom: 50px;
+    height:200px;
+    width: auto;
+}
+
+.cont p{
+    padding: 0 20px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+.bx
+{
+    margin-top: 100px;
+    display: flex;
+
+    height:20vh;
+    width:27vw;
+    border: 2px solid slateblue;
+    /* background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%); */
+    background: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    font-size:1rem;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    flex-direction: column;
+    font-family: 'Supermercado One', cursive;
+
+}
+
+footer{
+    position: absolute;
+    top:230%;
+}
+
+

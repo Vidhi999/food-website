@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans:wght@300&family=Quintessential&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            animation: back 4s linear forwards;
+            background-color: azure;
+           
+            font-family:  sans-serif;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+
+        .title {
+            position: absolute;
+            width: 90%;
+            height: 340px;
+            background-color: palevioletred;
+            top: 30%;
+            left: 5%;
+            transform: rotate(7deg);
+            border: 10px solid black;
+            animation: border 4s linear forwards;
+            font-family: 'Quintessential', cursive;
+            font-size: 20px;
+
+        }
+
+        @keyframes border {
+            100% {
+                background-color: azure;
+            }
+        }
+
+        @keyframes back {
+
+            100% {
+                background-color: palevioletred;
+            }
+        }
+
+        .title h1 {
+            transform: rotate(-7deg);
+            text-align: center;
+            padding-top: 70px;
+        }
+
+        .title p {
+
+            margin: 0 auto;
+            text-align: center;
+            transform: rotate(-7deg);
+            border-radius: 50%;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav a {
+            color: white;
+        }
+
+        .foodnav a {
+            color: black;
+        }
+
+        .food {
+            position: absolute;
+            top: 100%;
+            background-color: aliceblue;
+            width: 90%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            flex-direction: column;
+            background: white;
+            padding: 10px;
+            margin-top: 35px;
+            text-align: center;
+        }
+
+        .food .box2 {
+            margin-top: 100px;
+        }
+
+        img {
+            width: auto;
+            height: 300px;
+        }
+
+        
+        footer
+        {
+            position: absolute;
+             top:540vh;
+            
+        }
+        .icon{
+            width: 6.5%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="logo "  style="  position: fixed;">VKBlogs</div>
+    <div class="navbar"  style="  position: fixed;">
+        <div class="nav"><a href="index.html">HOME</a></div>
+        <div class="nav"><a href="aboutfood.html">ABOUT</a></div>
+        <div class="nav foodnav"><a href="trial.html">FOOD</a></div>
+        <div class="nav"><a href="contact.html">CONTACT</a></div>
+
+    </div>
+
+    <div class="title">
+        <h1>Let us see our food journey</h1>
+        <p class="btn"><a href="#food-items"><i class="fas fa-arrow-circle-down fa-3x"></i></a></p>
+    </div>
+
+
+    <div class="food" id="food-items">
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="bradio1">
+                    <input type="radio" name="radio-btn" id="bradio2">
+                    <input type="radio" name="radio-btn" id="bradio3">
+
+                    <div class="slide first">
+                        <img src="blue1.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="blue3.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="zero.jpeg" alt="">
+                    </div>
+
+                    <div class="navigation-manual">
+                        <label for="bradio1" class="manual-btn"></label>
+                        <label for="bradio2" class="manual-btn"></label>
+                        <label for="bradio3" class="manual-btn"></label>
+
+                    </div>
+                </div>
+            </div>
+            <h3>Blue Roof Top</h3>
+            <p>What will you choose between food and Fresh Air? I bet you cannot make a choice. Now, what if we say that
+                we have a choice for you between a boring, four-walled, sealed dining restaurant and an open, fresh air
+                zone, rooftop build restaurant?To experience an ultra-fine dining experience, head
+                over to the ‘Blue Rooftop Cafe Restaurant Bistro’ in Ahmedabad.<br><b>₹1000 for two approx |
+                    Multicuisine</b>
+            </p>
+        </div>
+        <div class="box box2">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="uradio1">
+                    <input type="radio" name="radio-btn" id="uradio2">
+                    <input type="radio" name="radio-btn" id="uradio3">
+
+                    <div class="slide">
+                        <img src="unlocked.jpeg" alt="">
+                    </div>
+                    <div class="slide first">
+                        <img src="unlcked2.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="unlocked3.jpeg" alt="">
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="uradio1" class="manual-btn"></label>
+                        <label for="uradio2" class="manual-btn"></label>
+                        <label for="uradio3" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+            <h3>Unlocked</h3>
+            <p>Unlocked has an outside seating space which is very pleasant in the cool evenings
+                They serve Savory 'French Crepes' in both vegetarian and non-vegetarian options but the batter does have
+                eggs so it is for eggetarian and not vegetarians
+                The menu has gourmet teas and detox juices for the health conscious.<br><b>₹1100 for two approx |
+                    Continental</b>
+            </p>
+        </div>
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="vradio1">
+                    <input type="radio" name="radio-btn" id="vradio2">
+                    <input type="radio" name="radio-btn" id="vradio3">
+                    <input type="radio" name="radio-btn" id="vradio4">
+
+
+                    <div class="slide">
+                        <img src="varietea1.jpeg" alt="">
+                    </div>
+
+                    <div class="slide first">
+                        <img src="varietea2.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="variteaa.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="var.jpeg" alt="">
+                    </div>
+
+                    <div class="navigation-manual">
+                        <label for="vradio1" class="manual-btn"></label>
+                        <label for="vradio2" class="manual-btn"></label>
+                        <label for="vradio3" class="manual-btn"></label>
+                        <label for="vradio4" class="manual-btn"></label>
+
+                    </div>
+                </div>
+            </div>
+            <h3>VarieTEA</h3>
+            <p>This is a café and tea bar located in the basement off Prahlad Nagar Road. It has a huge screen where one
+                can watch live sports from the comfort of large sofas while enjoying a lots of varieties of teas,
+                coffees and cold beverages along with snacks. This is a vegetarian place. It serves Tea, beverages,
+                Italian and North Indian food.<br><b>₹600 for two approx | Cafe</b>
+            </p>
+        </div>
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="iradio1">
+                    <input type="radio" name="radio-btn" id="iradio2">
+                    <input type="radio" name="radio-btn" id="iradio3">
+
+
+                    <div class="slide">
+                        <img src="sandwich1.jpeg" alt="">
+                    </div>
+
+                    <div class="slide first">
+                        <img src="sandwich2.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="sandwich3.jpeg" alt="">
+                    </div>
+
+                    <div class="navigation-manual">
+                        <label for="iradio1" class="manual-btn"></label>
+                        <label for="iradio2" class="manual-btn"></label>
+                        <label for="iradio3" class="manual-btn"></label>
+
+                    </div>
+                </div>
+            </div>
+            <h3>I <i class='fa fa-heart' style='color: red'></i> Sandwich House</h3>
+            <p>Located in S G Highway, I Love Sandwiches serves what else but, sandwiches along with tea and other
+                beverages. It also has a host of other snacks. This place is open from 8 am to 1 am. It serves both
+                vegetarian and non-vegetarian food. Here they have a huge screen to watch live sports on and comfortable
+                sofas to watch matches over long hours.<br><b>₹900 for two approx | Sandwiches</b>
+            </p>
+        </div>
+
+
+        <div class="box box2">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="u1radio1">
+                    <input type="radio" name="radio-btn" id="u1radio2">
+                    <input type="radio" name="radio-btn" id="u1radio3">
+                    <input type="radio" name="radio-btn" id="u1radio4">
+                    <input type="radio" name="radio-btn" id="u1radio5">
+
+                    <div class="slide first">
+                        <img src="urban1.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="urban2.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="urban3.jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="urban4.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="urban6.jpeg" alt="">
+                    </div>
+
+
+                    <div class="navigation-manual">
+                        <label for="u1radio1" class="manual-btn"></label>
+                        <label for="u1radio2" class="manual-btn"></label>
+                        <label for="u1radio3" class="manual-btn"></label>
+                        <label for="u1radio4" class="manual-btn"></label>
+                        <label for="u1radio5" class="manual-btn"></label>
+
+
+                    </div>
+                </div>
+            </div>
+            <h3>Urban Chowk</h3>
+            <p>Urban Chowk is located on the road - Rajpath to SP Ring Road. It is a very happening place. It has
+                multiple food stalls, comprising of a variety of cuisines. Whether you crave for Chinese, or
+                continental, or south Indian or north Indian - you will find all the options there. Plus, a nice sitting
+                area and music!<br><b>₹650 for two approx | Fast Food</b>
+            </p>
+        </div>
+
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+
+
+                    <div class="slide">
+                        <img src="mocha.jpeg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <h3>Mocha</h3>
+            <p>Mocha cafe and bar is a chain of cafes which has two of its outlets in Ahmedabad. They are known for
+                their coffee and their variety of desserts. They also serve pasta, pizza, panini, sizzlers and freshly
+                pressed juices. You can visit this place with a group or alone and enjoy a cup of coffee in the outdoor
+                seating area on a pleasant winter day.<br><b>₹1000 for two approx | Italian</b>
+            </p>
+        </div>
+
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="jradio1">
+                    <input type="radio" name="radio-btn" id="jradio2">
+                    <div class="slide first">
+                        <img src="jugger.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="jugger2.jpeg" alt="">
+                    </div>
+
+
+
+                    <div class="navigation-manual">
+                        <label for="jradio1" class="manual-btn"></label>
+                        <label for="jradio2" class="manual-btn"></label>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <h3>Juggernaut</h3>
+            <p>Juggernaut is one of the best and unique cafes in Ahmedabad for sports lovers. They have a huge screen
+                for the sports freaks where they can enjoy the live screening of matches along with playing on the field
+                yourself. The lighting is also dim and cozy. <br><b>₹900 for two approx | Fasto Food</b>
+            </p>
+        </div>
+
+
+
+        <div class="box box2">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="lradio1">
+
+
+                    <div class="slide first">
+                        <img src="london.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <h3>London Bubble</h3>
+            <p>Bringing “Bubble waffles” to India, London Bubble Co. is known for their artistic waffles, pancakes and
+                desserts which are 100% vegetarian and Gluten free.
+
+                They offer large varieties to choose from. A lot of fillings and dressings as well as a lot of options
+                for your sweet-tooth. <br><b>₹300 for two approx | Desserts</b>
+            </p>
+        </div>
+
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="gradio1">
+                    <input type="radio" name="radio-btn" id="gradio2">
+                    <input type="radio" name="radio-btn" id="gradio3">
+                    <input type="radio" name="radio-btn" id="gradio4">
+
+
+                    <div class="slide first">
+                        <img src="good1.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="good2.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="good3.jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="good4.jpeg" alt="">
+                    </div>
+
+
+                    <div class="navigation-manual">
+                        <label for="gradio1" class="manual-btn"></label>
+                        <label for="gradio2" class="manual-btn"></label>
+                        <label for="gradio3" class="manual-btn"></label>
+                        <label for="gradio4" class="manual-btn"></label>
+
+
+                    </div>
+                </div>
+            </div>
+            <h3>Good Thymes</h3>
+            <p>The Good Thymes is one of a kind Passionately created Lounge Cafe to Serve, Craft, Brew, Toss, Fry,
+                Churn, Griddle, Shake, Smoothie, Bake, Whisk, Fresh Food & Beverages.It is one of the most sought-after
+                lawn facilities in the city. It was set up with a view to
+                providing an elegant and superior lawn space. <br><b>₹800 for two approx | Cafe</b>
+            </p>
+        </div>
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="lradio1">
+
+
+                    <div class="slide first">
+                        <img src="itialano1.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <h3>Cafe De Italiano</h3>
+            <p>"Rise Up With Every Sip". World of delicious Italian cuisine, mouth watering freak shakes, desserts and
+                a lot more.Café de Italiano, this café located at Bodakdev, Ahmedabad is an exemplary place to hangout
+                with your friends and family.<br><b>₹950 for two approx | Italian</b>
+             </p>
+        </div>
+
+
+
+        <div class="box box2">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="lradio1">
+
+
+                    <div class="slide first">
+                        <img src="hilton1.jpeg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <h3>DoubleTree By Hilton</h3>
+            <p>Located on the lobby level, HOP is ideal for a quick cup of coffee or some refreshing coolers. Dine in
+                and enjoy our friendly, café-style ambience, or grab-and-go with a variety of light bites including
+                fresh sandwiches, baked goods, and desserts.<br><b>₹1000 for two approx | Continental</b>
+            </p>
+        </div>
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="dradio1">
+                    <input type="radio" name="radio-btn" id="dradio2">
+
+
+                    <div class="slide first">
+                        <img src="dangee1.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="dangee2.jpeg" alt="">
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="dradio1" class="manual-btn"></label>
+                        <label for="dradio2" class="manual-btn"></label>
+
+                    </div>
+                </div>
+            </div>
+            <h3>Dangee Dums</h3>
+            <p>Dangee Dums is a quick service restaurant located in Dev Aditya Arcade, Thaltej, West Ahmedabad. It
+                serves ice creams and desserts at an affordable rate. The staff is polite and helpful in assisting
+                customers. Dangee Dums is a great place for your after-dinner cravings.<br><b>₹450 for two approx |
+                Bakery</b>
+            </p>
+        </div>
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="aradio1">
+                    <input type="radio" name="radio-btn" id="aradio2">
+                    <input type="radio" name="radio-btn" id="aradio3">
+
+
+                    <div class="slide first">
+                        <img src="arbre1.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="arbre2.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="arbre3.jpeg">
+                    </div>
+
+
+                    <div class="navigation-manual">
+                        <label for="aradio1" class="manual-btn"></label>
+                        <label for="aradio2" class="manual-btn"></label>
+                        <label for="aradio3" class="manual-btn"></label>
+
+                    </div>
+                </div>
+            </div>
+            <h3>Arbre Restro Cafe</h3>
+            <p>Arbre Cafe is a new cafe in Ahmedabad, what makes this
+                cafe unique is that you can enjoy your meals amidst nature. It’s a refreshing change from the monotonous
+                eating arrangements that we experience every time we go out for dining in Ahmedabad. Visit Arbre for a
+                gourmet dining experience in Ahmedabad.<br><b>₹1100 for two approx | Multicuisine</b>
+            </p>
+        </div>
+
+
+
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="u2radio1">
+                    <input type="radio" name="radio-btn" id="u2radio2">
+
+
+                    <div class="slide first">
+                        <img src="uptown1.jpeg" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="uptown2.jpeg" alt="">
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="u2radio1" class="manual-btn"></label>
+                        <label for="u2radio2" class="manual-btn"></label>
+
+                    </div>
+                </div>
+            </div>
+            <h3>Uptown Dusk Bistro</h3>
+            <p>The reggae vibes of this unique cafe in Ahmedabad will make you fall
+                in love with everything there. The music played every day is indeed soothing and refreshing. The
+                cuisines served here are sinfully tempting and mouth-watering.There are dim lights all over the cafe,
+                and the place is green-themed.<br><b>₹1000 for two approx | Multicuisine</b>
+            </p>
+        </div>
+    </div>
+
+
+    <footer>  
+        <div class="left">
+            Follow:<br>
+            <div class="icons">
+           
+            <div class="icon"> <i class='fa fa-facebook-f'></i></div>
+            <div class="icon"><i class='fa fa-instagram'></i></div>
+            <div class="icon"> <i class='fa fa-linkedin'></i></div>
+            <div class="icon"><i class='fa fa-twitter'></i> </div>
+        </div>
+                 
+    </div>
+
+    <div class="right">
+        <div class="tag">
+        <div class="tags">SUPPORT </div>
+        <div class="tags">REVIEWS</div>
+        <div class="tags">CONNECT</div>
+        <div class="tags">INDULGE</div>
+        <div class="tags">DEVOUR</div>
+     </div>
+    <div class="cnt">
+
+    <p>Designed and Developed in Ahmedabad City. Call us 12-345-678</p></div>
+    <div class="cnt1">
+        <p>&copy 2022 VK Blogs. All rights reserved.</p>
+    </div>
+   
+
+
+    <div class="email">
+        <div class="em">Enter Email</div>
+        <div class="sub"><a href="#">Submit</a></div>
+        <br><br><br>
+    </div>    
+    
+    </div>
+    </footer>
+</body>
+
+</html>
